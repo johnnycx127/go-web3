@@ -15,13 +15,13 @@
 /**
  * @file default-block-number.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2017
  */
 
 package block
 
-import "github.com/regcostajr/go-web3/complex/types"
+import "github.com/johnnycx127/go-web3/complex/types"
 
 // NUMBER - An integer block number
 // Reference: https://github.com/ethereum/wiki/wiki/JSON-RPC#the-default-block-parameter

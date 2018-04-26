@@ -15,17 +15,18 @@
 /**
  * @file personal-gettransactionbyhash_test.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2017
  */
 package test
 
 import (
-	"github.com/regcostajr/go-web3"
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/providers"
 	"math/big"
 	"testing"
+
+	"github.com/johnnycx127/go-web3"
+	"github.com/johnnycx127/go-web3/dto"
+	"github.com/johnnycx127/go-web3/providers"
 )
 
 func TestGetTransactionByHash(t *testing.T) {

@@ -15,7 +15,7 @@
 /**
  * @file contract.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2018
  */
 
@@ -23,12 +23,13 @@ package eth
 
 import (
 	"encoding/json"
-	"math/big"
 	"errors"
 	"fmt"
+	"math/big"
+	"strings"
+
 	"github.com/johnnycx127/go-web3/complex/types"
 	"github.com/johnnycx127/go-web3/dto"
-	"strings"
 
 	"github.com/johnnycx127/go-web3/utils"
 )

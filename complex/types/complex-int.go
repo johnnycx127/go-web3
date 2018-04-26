@@ -15,7 +15,7 @@
 /**
  * @file complex-int.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2017
  */
 

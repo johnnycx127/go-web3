@@ -15,15 +15,15 @@
 /**
  * @file personal.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2017
  */
 
 package personal
 
 import (
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/providers"
+	"github.com/johnnycx127/go-web3/dto"
+	"github.com/johnnycx127/go-web3/providers"
 )
 
 // Personal - The Personal Module

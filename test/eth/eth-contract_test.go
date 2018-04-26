@@ -15,7 +15,7 @@
 /**
  * @file contract.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2018
  */
 
@@ -23,12 +23,13 @@ package test
 
 import (
 	"encoding/json"
-	web3 "github.com/regcostajr/go-web3"
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/providers"
 	"io/ioutil"
 	"math/big"
 	"testing"
+
+	web3 "github.com/johnnycx127/go-web3"
+	"github.com/johnnycx127/go-web3/dto"
+	"github.com/johnnycx127/go-web3/providers"
 )
 
 func TestEthContract(t *testing.T) {

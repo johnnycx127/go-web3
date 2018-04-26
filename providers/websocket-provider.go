@@ -15,7 +15,7 @@
 /**
  * @file websocket-provider.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2017
  */
 
@@ -24,9 +24,9 @@ package providers
 import (
 	"math/rand"
 
-	"github.com/regcostajr/go-web3/constants"
+	"github.com/johnnycx127/go-web3/constants"
 
-	"github.com/regcostajr/go-web3/providers/util"
+	"github.com/johnnycx127/go-web3/providers/util"
 	"golang.org/x/net/websocket"
 )
 

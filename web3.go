@@ -15,19 +15,19 @@
 /**
  * @file web3.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2017
  */
 
 package web3
 
 import (
-	"github.com/regcostajr/go-web3/dto"
-	"github.com/regcostajr/go-web3/eth"
-	"github.com/regcostajr/go-web3/net"
-	"github.com/regcostajr/go-web3/personal"
-	"github.com/regcostajr/go-web3/providers"
-	"github.com/regcostajr/go-web3/utils"
+	"github.com/johnnycx127/go-web3/dto"
+	"github.com/johnnycx127/go-web3/eth"
+	"github.com/johnnycx127/go-web3/net"
+	"github.com/johnnycx127/go-web3/personal"
+	"github.com/johnnycx127/go-web3/providers"
+	"github.com/johnnycx127/go-web3/utils"
 )
 
 // Coin - Ethereum value unity value

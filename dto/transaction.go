@@ -15,15 +15,16 @@
 /**
  * @file transaction.go
  * @authors:
- *   Reginaldo Costa <regcostajr@gmail.com>
+ *   Reginaldo Costa <johnnycx127@gmail.com>
  * @date 2017
  */
 
 package dto
 
 import (
-	"github.com/regcostajr/go-web3/complex/types"
 	"math/big"
+
+	"github.com/johnnycx127/go-web3/complex/types"
 )
 
 // TransactionParameters GO transaction to make more easy controll the parameters
@@ -74,8 +75,8 @@ func (params *TransactionParameters) Transform() *RequestTransactionParameters {
 }
 
 type SignTransactionResponse struct {
-	Raw              types.ComplexString      `json:"raw"`
-	Transaction      TransactionResponse      `json:"tx"`
+	Raw         types.ComplexString `json:"raw"`
+	Transaction TransactionResponse `json:"tx"`
 }
 
 type TransactionResponse struct {

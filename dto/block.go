@@ -26,7 +26,7 @@ import (
 	// "fmt"
 	// "strconv"
 
-	"github.com/regcostajr/go-web3/complex/types"
+	"github.com/johnnycx127/go-web3/complex/types"
 )
 
 type Block struct {
