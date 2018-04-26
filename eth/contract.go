@@ -164,7 +164,7 @@ func (contract *Contract) getHexValue(inputType string, value interface{}) strin
 		strings.HasPrefix(inputType, "uint") ||
 		strings.HasPrefix(inputType, "fixed") ||
 		strings.HasPrefix(inputType, "ufixed") {
-		data += fmt.Sprintf("%064s", fmt.Sprintf("%x", value.(int)))
+		data += fmt.Sprintf("%064s", fmt.Sprintf("%x", value.(*big.Int)))
 	}
 
 	if strings.Compare("address", inputType) == 0 {
