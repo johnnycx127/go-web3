@@ -23,6 +23,7 @@ package eth
 
 import (
 	"encoding/json"
+	"math/big"
 	"errors"
 	"fmt"
 	"github.com/regcostajr/go-web3/complex/types"
